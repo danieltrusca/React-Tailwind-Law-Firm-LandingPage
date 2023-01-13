@@ -1,8 +1,14 @@
 import React from "react";
 
+// import components
+import Header from "./components/Header";
+
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline text-accent">Hello world!</h1>
+    <>
+      <Header />
+      <div className="h-[2000px]"></div>
+    </>
   );
 };
 
