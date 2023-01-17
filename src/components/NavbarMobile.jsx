@@ -36,6 +36,7 @@ const NavbarMobile = () => {
           <li key={index}>
             <Link
               to={item.href}
+              onClick={() => setIsOpen(false)}
               activeClass="active"
               spy={true}
               offset={-200}
